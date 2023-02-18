@@ -1,8 +1,7 @@
 # BrainF Visualizer
---
 I couldn't find a brainF visualizer I liked.
 So I made my own.
---
+
 ## BrainF
 BrainF is very simple, only 8 (eight) instructions.
  '+' increments the current cell
