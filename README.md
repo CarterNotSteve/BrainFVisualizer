@@ -4,14 +4,14 @@ So I made my own.
 
 ## BrainF
 BrainF is very simple, only 8 (eight) instructions.
- '+' increments the current cell
- '-' decrements the current cell
- '>' moves the writehead to the next cell
- '<' moves the writehead to the previous cell
- '[' jumps to the matching ']' if the current cell is zero
- ']' jumps to the matching '[' if the current cell is non-zero
- '.' outputs the current cell as an ASCII character
- ',' inputs a single character as an ASCII integer
+ * '+' increments the current cell
+ * '-' decrements the current cell
+ * '>' moves the writehead to the next cell
+ * '<' moves the writehead to the previous cell
+ * '[' jumps to the matching ']' if the current cell is zero
+ * ']' jumps to the matching '[' if the current cell is non-zero
+ * '.' outputs the current cell as an ASCII character
+ * ',' inputs a single character as an ASCII integer
 
 ## Why use this one?
 I build this one to look nice, and work well \[WIP].
