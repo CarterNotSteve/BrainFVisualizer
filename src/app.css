@@ -1,0 +1,77 @@
+body {
+	background-color: #333;
+	padding: 0;
+	margin: 0;
+}
+
+.area {
+	resize: none;
+	background-color: #444;
+	height: 50vh;
+	border: 1px solid #000;
+	border-radius: 30px;
+	padding: 2vw;
+	margin-left: 2vw;
+	margin-right: 2vw;
+	color: #0f0;
+	font-family: 'Fira Code';
+	overflow: scroll;
+}
+
+.label {
+	color: #0f0;
+	font-family: 'Fira Code';
+	margin-left: 4vw;
+	margin-top: 2vh;
+	margin-bottom: 0;
+}
+
+#inputBox {
+	display: inline-block;
+	margin-bottom: 1vh;
+	width: 35vw;
+	height: 3vh;
+	margin-left: 0vw;
+}
+
+.runbtn {
+	background-color: #0f0;
+	color: #000;
+	font-family: 'Fira Code';
+	border-radius: 30px;
+	border: none;
+	margin-left: 5vw;
+	height: 6vh;
+	width: 6vw;
+	margin-bottom: 2vw;
+}
+
+.btnrow {
+	display: flex;
+	width: 45vw;
+	align-items: flex-end;
+	flex-direction: column;
+	justify-content: right;
+	position: absolute;
+	margin-left: 50vw;
+}
+
+.speedin::-webkit-slider-thumb {
+	-webkit-appearance: none;
+	background: #0f0;
+	height: 15px;
+	width: 0.5vw;
+	border-radius: 0;
+}
+
+.speedin {
+	appearance: none;
+	background: #000;
+	color: #0f0;
+	display: inline;
+	align-self: flex-end;
+	height: 3px;
+	width: 50%;
+	outline: none;
+	border-radius: 0px;
+}
